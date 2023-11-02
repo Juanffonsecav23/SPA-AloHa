@@ -1,0 +1,10 @@
+.bodyCardEspacios{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+}
+.imgEspacios{
+    height: 400px;
+    width: 400px;
+}

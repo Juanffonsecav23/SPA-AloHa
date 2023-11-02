@@ -1,0 +1,66 @@
+.card-detail_img{  
+    width: 580px;
+    object-fit: cover;
+  }
+  
+  .card-detail_img img{
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  .cardDetail{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 40px auto;
+    height: 100%;
+    min-height: 560px;
+    width: 90%;
+    min-width: 580px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.50);
+    background-color: #fff;
+    overflow: hidden;  
+    cursor: pointer;
+  }
+  
+  
+  .card-detail_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px 8px;
+  }
+  
+  small{
+    color: #8c8c8e;
+  }
+  
+  .card-detail_muted{
+    color: #8c8c8e
+  }
+  .description{
+    width: 600px;
+    text-align: justify;
+  }
+  .InputCalendario{
+    background-color: lightsalmon;
+    border: solid lightsalmon;
+    width: 215px;
+  }
+  .ItemDetailTitle{
+    color: orange;
+  }
+  .WhatsappButton{
+  color:#0df053;
+  background-color: white;
+  border: solid #0df053;
+  border-radius: 50px;
+  width: 400px;
+  padding: 10px;
+  margin-left: 20%;
+  }
+  .WhatsappButton:hover{
+    color: white;
+    background-color: #0df053;
+  }

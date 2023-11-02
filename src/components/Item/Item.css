@@ -1,0 +1,93 @@
+a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .font-xl{
+    font-size: 20 px;
+  }
+  
+  .item-card{
+    color: black;
+    position: static;
+    margin: 10px 15px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+    background-color: #fff;
+    overflow: hidden;  
+    transition: all 0.20s ease-in;
+    cursor: pointer;
+  }
+  
+  .item-card_header{
+    border-radius: 15px;
+    font-size: large;
+    padding-bottom: 12px;
+  }
+    
+  .item-card_header small{
+    font-size: 12px;
+  }
+  
+  .item-card_img{
+    width: 320px;
+    height: 240px;
+  }
+  .item-card_img img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .item-card:hover{
+    box-shadow: 0px 4px 15px  rgba(0,0,0,0.1);
+    transform: translateY(-6px);
+  }
+  
+  .item-card_detail{
+    padding: 12px 8px;
+  }
+  
+  .item-card_price-tag{
+    font-size: 20px;  
+    color:rgb(75, 75, 75);
+    font-weight: 900;
+    margin: 5px auto 15px;
+  }
+  
+  .item-card:hover .item-card_favicon{
+    display: block;
+  }
+  
+  .item-card_favicon{
+    display: none;
+    position: static;
+    right: 0;
+    border-radius:  50%;
+    border: none;
+    margin: 5px 5px;
+    padding: 8px 8px;
+    cursor: pointer;
+    background-color:transparent;
+    color: salmon;
+  }
+  .item-card_favicon:hover{
+    color: red;
+  }
+  
+  .item-card_favicon.favorite{
+    display: block;
+    background-color: transparent;
+    color: red;
+  }
+  .btn-ver-detalles{
+    margin-left: 5px;
+    background-color: white;
+    color: orange;
+    border: solid orange;
+    border-radius: 50px;
+  }
+  .btn-ver-detalles:hover{
+    color: orange;
+  }
