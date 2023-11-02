@@ -8,7 +8,7 @@ function Reglas() {
       <p style={{margin:"0 20px 20px 20px"}}>En Aloha 152, nuestro objetivo es proporcionar una experiencia agradable para todos nuestros huéspedes. Para ayudar a mantener un ambiente armonioso en nuestras instalaciones, por favor siga estas normas:</p>
       <div className="boxReglas">
         <div className="itemReglas">
-        <img src="/aloha-vite-app/src/assets/iconos/silence.svg" className="icon"/>
+        <img src="/favicon_io/silence.svg" className="icon"/>
           <p>Los horarios de silencio se aplican desde las 9:00 PM hasta las 7:00 AM para asegurar un entorno tranquilo para todos los huéspedes.</p>
         </div>
         <div className="itemReglas">
