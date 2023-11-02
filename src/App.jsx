@@ -2,13 +2,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
 import Homepage from "./components/HomePage/Homepage"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
-import ItemListContainer from "./components/ItemListContainer/itemListContainer"
+
 import Footer from "./components/Footer/Footer"
 import { CartContextProvider } from "./context/cartContext"
 import OrderVerify from "./components/OrderVerify/OrderVerify"
 import WhatsappButton from "./components/WhatsappButton/WhatsappButton"
 import Reglas from "./components/RyR/Reglas"
 import Contacto from "./components/Contacto/Contacto"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 
 
 

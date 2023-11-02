@@ -1,5 +1,5 @@
 import QuienesSomos from "../QuienesSomos/QuienesSomos"
-import ItemListContainer from "../ItemListContainer/itemListContainer"
+import ItemListContainer from "../ItemListContainer/ItemListContainer"
 import CheckOutForm from "../CheckOutForm/CheckOutForm"
 import ItemListContainerEspacios from "../Espacios/ItemListContainerEspacios"
 import { BotonosRedes } from "../Contacto/Contacto"
