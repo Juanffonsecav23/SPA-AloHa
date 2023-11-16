@@ -7,10 +7,10 @@ export function BotonosRedes() {
     <div style={{marginBottom:"3rem",}}>
       <h3 style={{marginLeft:"30%" , color:"orange"}}>Encuentranos tambien en nuestras redes sociales</h3>
           <div className="buttonsContacto">
-          <a href="" className="Instagram">
+          <a href="https://instagram.com/casaaloha152?igshid=MzRlODBiNWFlZA==" className="Instagram">
             <Icon icon="mdi:instagram" width={50} /><p style={{marginTop:"15px"}}>Instagram</p>
           </a>
-          <a href="" className="Facebook">
+          <a href="https://www.facebook.com/profile.php?id=100087745636618" className="Facebook">
             <Icon icon="ic:baseline-facebook" width={50} /><p style={{marginTop:"15px"}}>Facebook</p>
           </a>
           </div>
