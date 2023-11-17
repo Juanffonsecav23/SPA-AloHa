@@ -9,7 +9,7 @@ import WhatsappButton from "./components/WhatsappButton/WhatsappButton"
 import Reglas from "./components/RyR/Reglas"
 import Contacto from "./components/Contacto/Contacto"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
-
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -24,7 +24,6 @@ function App() {
           <Route path="/habitaciones" element={<ItemListContainer/>}/>
           <Route path="/room/:id" element={<ItemDetailContainer/>}/>
           <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
-{/*       <Route path="/cart" element={<CartView/>}/> */}          
           <Route path="/messageConfirmation/:orderid" element={<OrderVerify/>}></Route>
           <Route path="/ReglasyRecomendaciones" element={<Reglas/>}/>
           <Route path="/Contacto" element={<Contacto/>}/>
@@ -32,6 +31,7 @@ function App() {
         </Routes>
         <WhatsappButton/>
         <Footer/>
+        <Analytics/>
       </BrowserRouter>
     </CartContextProvider>
     

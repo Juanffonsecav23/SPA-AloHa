@@ -4,19 +4,16 @@ import { cartContext } from "../../context/cartContext";
 import { createOrder } from "../../services/Firebase";
 import { useNavigate } from "react-router-dom";
 import "./CartView.css";
-import Flex from "../Flex/Flex";
 import CheckOutForm from "../CheckOutForm/CheckOutForm";
 
 function CartView() {
-    const {cart , removeItem , /* clearCart */ /* countTotalPrice */ } = useContext(cartContext)
+    const {cart , removeItem } = useContext(cartContext)
     const navigateToRoomReservation = useNavigate() 
 
     async function HandleConfirm(userData) {
         const order = {
-            // items: cart  ,
             buyer:userData ,
             date: new Date(),
-            //price: countTotalPrice()
         }
         const id =  await createOrder(order)
         navigateToRoomReservation(`/order-confirmation/${id}`)
@@ -47,9 +44,6 @@ function CartView() {
                 
                 </ul>
                 <CheckOutForm onHandleConfrim={HandleConfirm} />
-                <Flex>
-                <button onClick={clearCart} style={{backgroundColor:"red"}} >Vaciar carrito</button>
-                </Flex>
             </>
 )
     }

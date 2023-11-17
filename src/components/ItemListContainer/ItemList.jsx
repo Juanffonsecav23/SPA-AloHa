@@ -7,7 +7,7 @@ function ItemList({ room ,isLoading }) {
   if (isLoading) return <Loader />; 
 
   if (room.length === 0){
-    return <h2>No se encontro el producto</h2>
+    return <h2>No se encontraron la(s) Habitacione(s)</h2>
   }else return (
     <div style={{paddingTop:"90px"}}>
       <Flex title="Habitaciones" color="orange">

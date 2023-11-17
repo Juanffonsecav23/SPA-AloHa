@@ -11,7 +11,7 @@ function QuienesSomos() {
             <br/><br/>
             
             En AloHa, nos esforzamos por brindarle una estadia agradable y cómoda durante su hospedaje, con instalaciones modernas a un costo que incluye servicios básicos, acceso a internet y uso de lavadora.</p>
-            <img src="/imgRooms/alojamiento.png" alt="Logo" className="logoQS" />
+            <img src="/imgRooms/alojamiento.png" alt="Logo AloHa" className="logoQS" />
                 </div>
         </div>
   )
