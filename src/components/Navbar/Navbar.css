@@ -89,3 +89,11 @@ nav{
     position: sticky;
   }
 }
+
+/********** Desktop **********/
+
+@media only screen and (min-width:979px){
+  .navbarR{
+    display: none;
+  }
+}
