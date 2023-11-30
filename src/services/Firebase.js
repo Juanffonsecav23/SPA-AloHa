@@ -1,6 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getFirestore , collection, getDocs, doc, getDoc ,query , where, addDoc, orderBy, /* writeBatch  */} from "firebase/firestore";
+import { getFirestore , collection, getDocs, doc, getDoc ,query , where, addDoc, orderBy} from "firebase/firestore";
 import espacios from "../data/espacios";
 
 const firebaseConfig = {
@@ -14,7 +13,6 @@ const firebaseConfig = {
 };
 
 const FirebaseApp = initializeApp(firebaseConfig);
-const analytics = getAnalytics(FirebaseApp);
 const db = getFirestore(FirebaseApp)
 
 export async function getData() {

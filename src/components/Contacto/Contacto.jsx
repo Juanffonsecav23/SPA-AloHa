@@ -5,7 +5,9 @@ import CheckOutForm from "../CheckOutForm/CheckOutForm"
 export function BotonosRedes() {
   return(
     <div style={{marginBottom:"3rem",}}>
-      <h3 style={{marginLeft:"30%" , color:"orange"}}>Encuentranos tambien en nuestras redes sociales</h3>
+      <div className="ContactTitle">
+        <h3>Encuentranos tambien en nuestras redes sociales</h3>
+      </div>
           <div className="buttonsContacto">
           <a href="https://instagram.com/casaaloha152?igshid=MzRlODBiNWFlZA==" className="Instagram">
             <Icon icon="mdi:instagram" width={50} /><p style={{marginTop:"15px"}}>Instagram</p>

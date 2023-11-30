@@ -1,9 +1,3 @@
-.buttonsContacto{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    margin: 20px 0 20px 0;
-}
 
 .Instagram{
     display: flex;
@@ -40,4 +34,25 @@
 .mapa{
     display: flex;
     justify-content: center;
+}
+
+/********* Mobile *********/
+
+@media only screen and (max-width:480px){
+    .ContactTitle{
+        margin-top: 10px;
+        margin-left: 10%;
+        color: orange;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonsContacto{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 20px 0 20px 0;
+        gap: 20px;
+    }
 }
