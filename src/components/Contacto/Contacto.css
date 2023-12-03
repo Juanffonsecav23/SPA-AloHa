@@ -41,7 +41,7 @@
 @media only screen and (max-width:480px){
     .ContactTitle{
         margin-top: 10px;
-        margin-left: 10%;
+        margin-left: 5%;
         color: orange;
         display: grid;
         justify-content: center;

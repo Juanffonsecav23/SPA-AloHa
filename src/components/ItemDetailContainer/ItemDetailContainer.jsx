@@ -41,10 +41,10 @@ if (room) {
       <div className="cardDetail">
         <div className="card-detail_img">
           <Carrousel >
-          <img src={room.img}  style={{width:"580px" , height:"455px"}}  alt="Imagen Habitación"/>
-          <img src={room.img1} style={{width:"580px" , height:"455px"}}  alt="Imagen Habitación"/>
-          <img src={room.img2} style={{width:"580px" , height:"455px"}}  alt="Imagen Habitación"/>
-          <img src={room.img3} style={{width:"580px" , height:"455px"}}  alt="Imagen Habitación"/>
+          <img src={room.img} className="CarouselImg"  alt="Imagen Habitación"/>
+          <img src={room.img1} className="CarouselImg"  alt="Imagen Habitación"/>
+          <img src={room.img2} className="CarouselImg"  alt="Imagen Habitación"/>
+          <img src={room.img3} className="CarouselImg"  alt="Imagen Habitación"/>
           </Carrousel>
         </div>
         <div className="card-detail_detail">
