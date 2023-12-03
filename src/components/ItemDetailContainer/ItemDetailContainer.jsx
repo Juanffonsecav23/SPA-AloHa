@@ -8,6 +8,7 @@ import Carrousel from "../Carrousel/Carrousel";
 import CheckOutForm from "../CheckOutForm/CheckOutForm";
 import { BotonosRedes } from "../Contacto/Contacto";
 import { Icon } from "@iconify/react";
+import Flex from "../Flex/Flex";
 
 
 function ItemDetailContainer() {
@@ -36,6 +37,7 @@ return (
 if (room) {
   return (
     <div style={{paddingTop:"100px"}}>
+      <Flex>
       <div className="cardDetail">
         <div className="card-detail_img">
           <Carrousel >
@@ -52,6 +54,7 @@ if (room) {
           <a href="https://api.whatsapp.com/send?phone=573212402566" target="_blank" rel="noreferrer"  className="WhatsappButton"><Icon icon="ic:baseline-whatsapp"  width={50} height={50}/>Reserva por Whatsapp</a>
         </div>
       </div>
+      </Flex>
       <BotonosRedes/>
       <CheckOutForm/>
     </div>

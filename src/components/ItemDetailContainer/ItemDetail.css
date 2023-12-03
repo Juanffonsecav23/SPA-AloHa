@@ -8,21 +8,7 @@
     margin-top: 60px;
   }
   
-  .cardDetail{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: 40px auto;
-    height: 100%;
-    min-height: 560px;
-    width: 90%;
-    min-width: 580px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 4px rgba(0,0,0,0.50);
-    background-color: #fff;
-    overflow: hidden;  
-    cursor: pointer;
-  }
+  
   
   
   .card-detail_detail{
@@ -64,3 +50,61 @@
     color: white;
     background-color: #0df053;
   }
+
+/********** Mobile *********/
+
+@media only screen and (max-width:480px){
+
+  .cardDetail{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 95%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.50);
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .card-detail_img{  
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .description{
+    width: 100%;
+    text-align: justify;
+  }
+
+  .WhatsappButton{
+    color:#0df053;
+    background-color: white;
+    border: solid #0df053;
+    border-radius: 50px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+    }
+}
+
+/********** Desktop **********/
+
+@media only screen and (min-width:979px){
+
+  .cardDetail{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 40px auto;
+    height: 100%;
+    min-height: 560px;
+    width: 90%;
+    min-width: 580px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.50);
+    background-color: #fff;
+    overflow: hidden;  
+    cursor: pointer;
+  }
+}
