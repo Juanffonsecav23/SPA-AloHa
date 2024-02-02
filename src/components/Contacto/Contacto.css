@@ -53,7 +53,8 @@
     .mapa{
         display: flex;
         justify-content: center;
-        height: 300px;
+        margin-left: 5%;
+        width: 90%;
     }
 }
 
@@ -79,5 +80,7 @@
     .mapa{
         display: flex;
         justify-content: center;
+        width: auto;
+        height: auto;
     }
 }

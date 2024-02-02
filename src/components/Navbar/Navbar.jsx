@@ -16,7 +16,7 @@ export default function Navbar () {
                 <div className='collapse navbar-collapse' id="navbarTogglerDemo01"> 
                     <ul className="navbarFV navbar-nav mx-auto mb-2 mb-lg-0 nav-justified">
                         <li>
-                        <NavLink to="/"><img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="Logo" className='logo' style={{width:"80px" , height:"80px"}}/></NavLink>
+                        <NavLink to="/"><img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="Logo" className='logo' /></NavLink>
                         </li>
                         <li className="dropdown itemList tres">
                             <button className="dropbtn"><NavLink to="/habitaciones" className="itemListLink">Habitaciones ▼</NavLink></button>
