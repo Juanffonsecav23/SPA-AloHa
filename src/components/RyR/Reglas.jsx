@@ -25,7 +25,7 @@ function Reglas() {
         </div>
         <div className="itemReglas">
           <Icon icon="game-icons:silence" className="icon"/>
-          <p>No se permiten eventos ni fiestas, o musica con volumen que incomode o perturbe a los demas huespedes</p>
+          <p>No se permiten eventos ni fiestas, o música con volumen que incomode o perturbe a los demas huespedes</p>
         </div>
         <div className="itemReglas">
           <Icon icon="game-icons:house-keys" className="icon" />

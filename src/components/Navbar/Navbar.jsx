@@ -1,6 +1,8 @@
 import { Icon } from '@iconify/react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
+import QuienesSomos from "../QuienesSomos/QuienesSomos"
+
 
 
 export default function Navbar () {
@@ -17,6 +19,9 @@ export default function Navbar () {
                     <ul className="navbarFV navbar-nav mx-auto mb-2 mb-lg-0 nav-justified">
                         <li>
                         <NavLink to="/"><img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="Logo" className='logo' /></NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/QuienesSomos" className="navbarItem">Quiénes Somos</NavLink>
                         </li>
                         <li className="dropdown itemList tres">
                             <button className="dropbtn"><NavLink to="/habitaciones" className="itemListLink">Habitaciones ▼</NavLink></button>

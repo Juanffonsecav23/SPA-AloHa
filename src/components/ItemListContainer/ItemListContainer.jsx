@@ -19,7 +19,7 @@ function ItemListContainer() {
     });
   }, [categoryId]);
 
-  return <ItemList isLoading={isLoading} room={room} />;
+  return <ItemList isLoading={isLoading} room={room} category={categoryId} />;
 }
 
 export default ItemListContainer;

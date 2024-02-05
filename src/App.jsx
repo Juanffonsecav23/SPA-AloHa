@@ -10,6 +10,7 @@ import Reglas from "./components/RyR/Reglas"
 import Contacto from "./components/Contacto/Contacto"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import { Analytics } from '@vercel/analytics/react';
+import QuienesSomos from "./components/QuienesSomos/QuienesSomos"
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Homepage/>} />
+          <Route path="/QuienesSomos" element={<QuienesSomos/>}/>
           <Route path="/habitaciones" element={<ItemListContainer/>}/>
           <Route path="/room/:id" element={<ItemDetailContainer/>}/>
           <Route path="/category/:categoryId" element={<ItemListContainer/>}/>

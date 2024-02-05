@@ -1,4 +1,3 @@
-import QuienesSomos from "../QuienesSomos/QuienesSomos"
 import ItemListContainer from "../ItemListContainer/ItemListContainer"
 import CheckOutForm from "../CheckOutForm/CheckOutForm"
 import ItemListContainerEspacios from "../Espacios/ItemListContainerEspacios"
@@ -8,7 +7,6 @@ function Homepage() {
   return (
       <div className='Body'>
         <img className="imgCasa" src='/imgRooms/casaBlanca.jpeg' alt="AloHa"/>
-        <QuienesSomos/>
         <ItemListContainer/>
         <div className="fondoEspacios">
           <ItemListContainerEspacios/>
