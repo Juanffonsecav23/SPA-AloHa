@@ -4,5 +4,6 @@ import App from './App.jsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap";
 import './index.css';
+import 'animate.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);

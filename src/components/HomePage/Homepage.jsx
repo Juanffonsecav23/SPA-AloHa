@@ -6,7 +6,7 @@ import { BotonosRedes } from "../Contacto/Contacto"
 function Homepage() {
   return (
       <div className='Body'>
-        <img className="imgCasa" src='/imgRooms/casaBlanca.jpeg' alt="AloHa"/>
+        <img className="imgCasa animate__animated animate__zoomIn" src='/imgRooms/casaBlanca.jpeg' alt="AloHa"/>
         <ItemListContainer/>
         <div className="fondoEspacios">
           <ItemListContainerEspacios/>
