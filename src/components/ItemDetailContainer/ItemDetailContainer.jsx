@@ -51,7 +51,7 @@ if (room) {
           <h1 className="ItemDetailTitle">{room.title}</h1>
           <p className="description">{room.description}</p>
           <h3>$ {(room.price)} Cop / Mes</h3>
-          <a href="https://api.whatsapp.com/send?phone=573212402566" target="_blank" rel="noreferrer"  className="WhatsappButton"><Icon icon="ic:baseline-whatsapp"  width={50} height={50}/>Reserva por Whatsapp</a>
+          <a href="https://api.whatsapp.com/send?phone=573212402566&text=¡%20Hola%20Casa%20AloHa%20152%20!%20Estoy%20interesado%20en%20conocer%20más%20información%20sobre%20el%20hospedaje" target="_blank" rel="noreferrer"  className="WhatsappButton"><Icon icon="ic:baseline-whatsapp"  width={50} height={50}/>Reserva por Whatsapp</a>
         </div>
       </div>
       </Flex>
