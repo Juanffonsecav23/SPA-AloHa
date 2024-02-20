@@ -49,8 +49,8 @@ if (room) {
         <div className="card-detail_detail">
           <h1 className="ItemDetailTitle">{room.title}</h1>
           <p className="description">{room.description}</p>
-          <h3> Desde $ {room.price} Cop / Mes</h3>
-          <h4>Desde $ {room.priceNight} Cop / Noche</h4>
+          <h3>$ {room.price} Cop / Mes</h3>
+          <h4> Noche desde $ {room.priceNight} Cop</h4>
           <p style={{color:"darkgray"}}>*Estadía Mínima 3 noches*</p>
           <a href="https://api.whatsapp.com/send?phone=573212402566&text=¡%20Hola%20Casa%20AloHa%20152%20!%20Estoy%20interesado%20en%20conocer%20más%20información%20sobre%20el%20hospedaje" target="_blank" rel="noreferrer"  className="WhatsappButton"><Icon icon="ic:baseline-whatsapp"  width={50} height={50}/>Reserva por Whatsapp</a>
         </div>
