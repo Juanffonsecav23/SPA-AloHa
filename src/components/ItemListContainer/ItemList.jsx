@@ -23,7 +23,7 @@ function ItemList({ room ,isLoading, category }) {
     return <h2>No se encontraron la(s) Habitacione(s)</h2>
   }else return (
     <div className="roomTitle">
-      <Flex title={tituloCategoria()} color="orange">
+      <Flex title={tituloCategoria()} color="white" backgroundColor="black">
         {room.map((roomInArray) => (
           <Item key={room.id} {...roomInArray} />
         ))}

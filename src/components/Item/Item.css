@@ -24,6 +24,7 @@ a{
     border-radius: 15px;
     font-size: large;
     padding-bottom: 12px;
+    background-color: white;
   }
     
   .item-card_header small{
@@ -47,6 +48,7 @@ a{
   
   .item-card_detail{
     padding: 12px 8px;
+    background-color: white;
   }
   
   .item-card_price-tag{

@@ -1,35 +1,10 @@
-/* #Footer{
-    background-color: orange;
-}
-#FooterButtons{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-content: center;
-    width: 600px;
-    margin-left: 25%;
-}
-.ItemButtonFooter{
-    border-radius: 100px;
-    background-color: red;
-}
-.FooterFlex{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-content: center;
-    width: 600px;
-    margin-left: 25%;
-}
-.ItemListFooter{
-    list-style: none;
-} */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 .footer {
   position: relative;
   width: 100%;
-  background: orange;
+  background: black;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;

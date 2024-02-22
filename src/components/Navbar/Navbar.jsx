@@ -18,9 +18,6 @@ export default function Navbar () {
                 <div className='collapse navbar-collapse' id="navbarTogglerDemo01"> 
                     <ul className="navbarFV navbar-nav mx-auto mb-2 mb-lg-0 nav-justified">
                         <li>
-                        <NavLink to="/"><img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="Logo" className='logo' /></NavLink>
-                        </li>
-                        <li>
                             <NavLink to="/QuienesSomos" className="navbarItem">Quiénes Somos</NavLink>
                         </li>
                         <li className="dropdown itemList tres">
@@ -30,7 +27,10 @@ export default function Navbar () {
                             <NavLink to="/category/Baño Compartido" className="navbarItem" >Baño Compartido</NavLink>
                             <NavLink to="/category/Aparta Estudio" className="navbarItem" >Aparta Estudios</NavLink>
                             </div>
-                            </li>
+                        </li>
+                        <li>
+                        <NavLink to="/"><img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="Logo" className='logo' /></NavLink>
+                        </li>
                         <li>
                             <NavLink to="/ReglasyRecomendaciones" className="navbarItem">Reglas</NavLink>
                         </li>

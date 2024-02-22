@@ -1,19 +1,22 @@
 import { useState } from "react";
 
 /* eslint-disable react/prop-types */
-function Flex({ children, title, color }) {
+function Flex({ children, title, color,backgroundColor }) {
 
   const [colorTitle , setColorTitle] = useState(color);
+  const [colorBackground , setColorBackground] = useState(backgroundColor);
 
   const styleTitle = {
     color: colorTitle,
-    marginLeft:"10px"
+    paddingLeft:"10px",
+    backgroundColor:colorBackground
   }
-    const flexStyle = {
-      display: "flex",
-      justifyContent: "space-evenly",
-      flexWrap: "wrap",
-    };
+  const flexStyle = {
+    display: "flex",
+    justifyContent: "space-evenly",
+    flexWrap: "wrap",
+    backgroundColor:colorBackground,
+  };
   
     return (
       <div>

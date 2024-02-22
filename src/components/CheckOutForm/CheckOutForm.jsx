@@ -55,7 +55,7 @@ function CheckOutForm() {
 
 return (
     <div className="checkoutform-Container">
-        <h3 style={{color:"orange", }}>Para mas información dejanos tus datos y te contactaremos</h3>
+        <h3 style={{color:"white"}}>Para mas información dejanos tus datos y te contactaremos</h3>
         <div>
             <label>Nombre(s):</label>
             <input className="input-Form" value={userData.nombre} name="nombre" type="text" onChange={onInputChange} />
@@ -73,10 +73,10 @@ return (
             <input className="input-Form" value={userData.phone} name="phone" type="text" onChange={onInputChange}/>
         </div>
         <div>
-            <p style={{marginTop:"10px" , marginBottom:"0"}}>Comentario:</p>
+            <p style={{marginTop:"10px" , marginBottom:"0",color:"white"}}>Comentario:</p>
             <textarea cols={27} rows={10} className="input-Form" style={{marginBottom:"10px"}} name="comentario" onChange={onInputChange}></textarea>
         </div>
-        <button style={{backgroundColor:"orange" , width:"100%"}} onClick={onSubmit}>Enviar</button>
+        <button style={{backgroundColor:"black" , width:"100%", color:"white"}} onClick={onSubmit}>Enviar</button>
     </div> )
 
     }

@@ -1,8 +1,8 @@
 :root{
-    --naranja-titulos: orange;
+    --naranja-titulos: WHITE;
 }
 .boxQS{
-    background-color:white;
+    background-color:black;
     padding-top: 30px;
 }
 .tituloQS{
@@ -15,7 +15,7 @@
     margin-right: 20px;
     text-align: justify;
     font-size: 4fr;
-    color:black;
+    color:WHITE;
 }
 .logoQS{
     border-radius: 2300px;

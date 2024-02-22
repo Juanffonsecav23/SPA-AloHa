@@ -27,7 +27,7 @@ function Item({ title, img, price, category, id, capacidad,priceNight }) {
       <img src={img} alt="Imagen Habitacion"></img>
       </div>
       <div className="item-card_header">
-        <h5 style={{marginLeft: "5px", color:"orange"}}>{title}</h5> 
+        <h5 style={{marginLeft: "5px", color:"black"}}>{title}</h5> 
         <small style={{marginLeft: "5px"}}>{category}</small>
         <CardDescription price={(price)} priceNight={(priceNight)}  />
         <p style={{color:"darkgray"}}>*Estadía mínima 3 noches*</p>

@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color:white;
+  background-color:black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,12 +22,13 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: black;
+  color: orange;
 }
 
 body {
   margin: 0;
   height: auto;
+  background-color: black;
 }
 
 
@@ -56,9 +57,6 @@ button:hover{
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-.dropdown{
-  border: solid orange;
 }
 
 /********** Mobile **********/

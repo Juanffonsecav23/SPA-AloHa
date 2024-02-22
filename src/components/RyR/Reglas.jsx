@@ -5,7 +5,7 @@ function Reglas() {
   return (
     <div style={{paddingTop:"100px"}}>
       <h1 className="sectionTitle animate__animated animate__slideInDown">Reglas</h1>
-      <p style={{margin:"0 20px 20px 20px"}}>En Aloha 152, nuestro objetivo es proporcionar una experiencia agradable para todos nuestros huéspedes. Para ayudar a mantener un ambiente armonioso en nuestras instalaciones, por favor siga estas normas:</p>
+      <p style={{margin:"0 20px 20px 20px", color:"white"}}>En Aloha 152, nuestro objetivo es proporcionar una experiencia agradable para todos nuestros huéspedes. Para ayudar a mantener un ambiente armonioso en nuestras instalaciones, por favor siga estas normas:</p>
       <div className="boxReglas">
         <div className="itemReglas animate__animated animate__bounceInLeft">
         <img src="/favicon_io/silence.svg" className="icon"/>
