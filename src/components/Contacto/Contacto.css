@@ -58,6 +58,39 @@
     }
 }
 
+
+/********** Tablet *********/
+
+
+@media only screen and (min-width:481px) and (max-width:978px){
+    .ContactTitle{
+        margin-top: 10px;
+        color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttonsContacto{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 20px 0 20px 0;
+        gap: 20px;
+    }
+    .mapa{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+    }
+}
+
+
+
+
+
 /********** Desktop **********/
 
 @media only screen and (min-width:979px){

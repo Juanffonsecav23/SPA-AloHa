@@ -3,7 +3,6 @@ import "./ItemEspacios.css"
 
 function ItemEspacios({title , img, description}) {
   return (
-    <Flex>
     <div className="EspaciosBox">
         <div>
             <img src={img} alt="" className="imgEspacios" />
@@ -13,7 +12,6 @@ function ItemEspacios({title , img, description}) {
             <small>{description}</small>
         </div>
     </div>
-    </Flex>
   )
 }
 

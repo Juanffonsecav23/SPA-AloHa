@@ -24,9 +24,24 @@
         width: 100px;
         height: 100px;
         margin: 30px ;
-        background-color:black;
-        border: solid white;
-        color: white;
+        background-color:white;
+        border: solid black;
+        color: black;
+        border-radius: 50%;
+    }
+}
+
+/********** Tablet *********/
+
+
+@media only screen and (min-width:481px) and (max-width:978px){
+    .icon{
+        width: 100px;
+        height: 100px;
+        margin: 30px 30px 30px 40%;
+        background-color:white;
+        border: solid black;
+        color: black;
         border-radius: 50%;
     }
 }

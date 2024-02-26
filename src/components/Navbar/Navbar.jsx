@@ -15,8 +15,8 @@ export default function Navbar () {
                     </button>
                 </div>
                 <div className='collapse navbar-collapse' id="navbarTogglerDemo01"> 
-                    <ul className="navbarFV navbar-nav mx-auto mb-lg-0 nav-justified" style={{paddingLeft:"30px"}}>
-                    <li className='cajasMenu'>
+                    <ul id="navbarFV" className="navbar-nav mx-auto mb-lg-0 nav-justified">
+                        <li className='cajasMenu'>
                             <div>
                                 <NavLink to="/QuienesSomos" className="navbarItem">Quiénes Somos</NavLink>
                             </div>

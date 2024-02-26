@@ -17,3 +17,21 @@
         width: 350px;
     }
 }
+
+
+/********** Tablet *********/
+
+
+@media only screen and (min-width:481px) and (max-width:978px){
+    .bodyCardEspacios{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: white;
+        }
+    .imgEspacios{
+        height: 280px;
+        width: 355px;
+    }
+  }
+  
