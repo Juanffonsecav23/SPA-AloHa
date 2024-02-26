@@ -6,8 +6,8 @@ function Footer() {
   return (
     <div>
       <footer className="footer">
-      <img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="" style={{width:"80px", height:"80px", marginLeft:"25px"}} />
-      <ul className="socialIcon">
+      <img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="" style={{width:"80px", height:"80px"}} />
+      <ul className="socialIcon" style={{paddingLeft:"0"}}>
         <li className="socialIconItem"><a className="socialIconLink" href="https://www.facebook.com/profile.php?id=100087745636618">
           <Icon icon="ic:baseline-facebook" />
           </a></li>
@@ -18,7 +18,7 @@ function Footer() {
           <Icon icon="mdi:instagram" />
           </a></li>
       </ul>
-      <ul className="menu">
+      <ul className="menu" style={{paddingLeft:"0"}}>
         <li className="menuItem"><Link className="menuLink" to="/">Inicio</Link></li>
         <li className="menuItem"><Link className="menuLink" to="/ReglasyRecomendaciones">Reglas</Link></li>
         <li className="menuItem"><Link className="menuLink" to="/habitaciones">Habitaciones</Link></li>

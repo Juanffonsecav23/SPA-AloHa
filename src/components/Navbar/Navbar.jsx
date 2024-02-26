@@ -1,7 +1,6 @@
 import { Icon } from '@iconify/react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
-import QuienesSomos from "../QuienesSomos/QuienesSomos"
 
 
 
@@ -16,27 +15,32 @@ export default function Navbar () {
                     </button>
                 </div>
                 <div className='collapse navbar-collapse' id="navbarTogglerDemo01"> 
-                    <ul className="navbarFV navbar-nav mx-auto mb-2 mb-lg-0 nav-justified">
-                        <li>
-                            <NavLink to="/QuienesSomos" className="navbarItem">Quiénes Somos</NavLink>
-                        </li>
-                        <li className="dropdown itemList tres">
-                            <button className="dropbtn"><NavLink to="/habitaciones" className="itemListLink">Habitaciones ▼</NavLink></button>
-                            <div className="dropdown-content">
-                            <NavLink to="/category/Baño Privado" className="navbarItem" >Baño Privado</NavLink>
-                            <NavLink to="/category/Baño Compartido" className="navbarItem" >Baño Compartido</NavLink>
-                            <NavLink to="/category/Aparta Estudio" className="navbarItem" >Aparta Estudios</NavLink>
+                    <ul className="navbarFV navbar-nav mx-auto mb-lg-0 nav-justified" style={{paddingLeft:"30px"}}>
+                    <li className='cajasMenu'>
+                            <div>
+                                <NavLink to="/QuienesSomos" className="navbarItem">Quiénes Somos</NavLink>
+                            </div>
+                            <div className="dropdown itemList tres">
+                                <button className="dropbtn"><NavLink to="/habitaciones" className="itemListLink">Habitaciones ▼</NavLink></button>
+                                <div className="dropdown-content">
+                                <NavLink to="/category/Baño Privado" className="navbarItem" >Baño Privado</NavLink>
+                                <NavLink to="/category/Baño Compartido" className="navbarItem" >Baño Compartido</NavLink>
+                                <NavLink to="/category/Aparta Estudio" className="navbarItem" >Aparta Estudios</NavLink>
+                                </div>
                             </div>
                         </li>
-                        <li>
+                        <li id='cajaMedia'>
                         <NavLink to="/"><img src="/imgRooms/LogoAloHaEnBlanco.svg" alt="Logo" className='logo' /></NavLink>
                         </li>
-                        <li>
-                            <NavLink to="/ReglasyRecomendaciones" className="navbarItem">Reglas</NavLink>
+                        <li className='cajasMenu'>
+                            <div>
+                                <NavLink to="/ReglasyRecomendaciones" className="navbarItem">Reglas</NavLink>
+                            </div>
+                            <div >
+                                <NavLink to="/Contacto" className="navbarItem">Contacto</NavLink>
+                            </div>
                         </li>
-                        <li >
-                            <NavLink to="/Contacto" className="navbarItem">Contacto</NavLink>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>

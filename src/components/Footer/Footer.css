@@ -14,7 +14,13 @@
   margin-top:10% ;
 }
 
-.socialIcon,
+.socialIcon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .menu {
   position: relative;
   display: flex;
@@ -23,7 +29,6 @@
   margin: 10px 0;
   flex-wrap: wrap;
 }
-
 .socialIconItem,
 .menuItem {
   list-style: none;
