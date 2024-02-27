@@ -1,13 +1,4 @@
-.bodyCardEspacios{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    background-color: white;
-}
-.imgEspacios{
-    height: 400px;
-    width: 400px;
-}
+
 
 /********** Mobile **********/
 
@@ -35,3 +26,19 @@
     }
   }
   
+
+  /********** Desktop *********/
+
+
+  @media only screen and (min-width:979px){
+  .bodyCardEspacios{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+}
+.imgEspacios{
+    height: 370px;
+    width: 370px;
+}
+}

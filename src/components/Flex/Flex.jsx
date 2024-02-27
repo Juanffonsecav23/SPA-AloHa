@@ -16,6 +16,7 @@ function Flex({ children, title, color,backgroundColor }) {
     justifyContent: "space-evenly",
     flexWrap: "wrap",
     backgroundColor:colorBackground,
+    columnGap:"10px"
   };
   
     return (
