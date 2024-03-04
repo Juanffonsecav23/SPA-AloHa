@@ -18,14 +18,14 @@ export default function Navbar () {
                     <ul id="navbarFV" className="navbar-nav mx-auto mb-lg-0 nav-justified">
                         <li className='cajasMenu'>
                             <div>
-                                <NavLink to="/QuienesSomos" className="navbarItem">Quiénes Somos</NavLink>
+                                <NavLink to="/quienesSomos" className="navbarItem">Quiénes Somos</NavLink>
                             </div>
                             <div className="dropdown itemList tres">
                                 <button className="dropbtn"><NavLink to="/habitaciones" className="itemListLink">Habitaciones ▼</NavLink></button>
                                 <div className="dropdown-content">
-                                <NavLink to="/category/Baño Privado" className="navbarItem" >Baño Privado</NavLink>
-                                <NavLink to="/category/Baño Compartido" className="navbarItem" >Baño Compartido</NavLink>
-                                <NavLink to="/category/Aparta Estudio" className="navbarItem" >Aparta Estudios</NavLink>
+                                <NavLink to="/category/bañoprivado" className="navbarItem" >Baño Privado</NavLink>
+                                <NavLink to="/category/bañocompartido" className="navbarItem" >Baño Compartido</NavLink>
+                                <NavLink to="/category/apartaestudio" className="navbarItem" >Aparta Estudios</NavLink>
                                 </div>
                             </div>
                         </li>
@@ -34,10 +34,10 @@ export default function Navbar () {
                         </li>
                         <li className='cajasMenu'>
                             <div>
-                                <NavLink to="/ReglasyRecomendaciones" className="navbarItem">Reglas</NavLink>
+                                <NavLink to="/reglasyrecomendaciones" className="navbarItem">Reglas</NavLink>
                             </div>
                             <div >
-                                <NavLink to="/Contacto" className="navbarItem">Contacto</NavLink>
+                                <NavLink to="/contacto" className="navbarItem">Contacto</NavLink>
                             </div>
                         </li>
                         

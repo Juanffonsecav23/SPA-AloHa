@@ -22,13 +22,13 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Homepage/>} />
-          <Route path="/QuienesSomos" element={<QuienesSomos/>}/>
+          <Route path="/quienesSomos" element={<QuienesSomos/>}/>
           <Route path="/habitaciones" element={<ItemListContainer/>}/>
           <Route path="/room/:id" element={<ItemDetailContainer/>}/>
           <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
           <Route path="/messageConfirmation/:orderid" element={<OrderVerify/>}></Route>
-          <Route path="/ReglasyRecomendaciones" element={<Reglas/>}/>
-          <Route path="/Contacto" element={<Contacto/>}/>
+          <Route path="/reglasyrecomendaciones" element={<Reglas/>}/>
+          <Route path="/contacto" element={<Contacto/>}/>
           <Route path="*" element={<h1 style={{marginLeft:"30%"}}>Error 404 : Page not found</h1>}/>
         </Routes>
         <WhatsappButton/>
