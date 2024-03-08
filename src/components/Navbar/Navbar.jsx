@@ -23,9 +23,9 @@ export default function Navbar () {
                             <div className="dropdown itemList tres">
                                 <button className="dropbtn"><NavLink to="/habitaciones" className="itemListLink">Habitaciones ▼</NavLink></button>
                                 <div className="dropdown-content">
-                                <NavLink to="/category/bañoprivado" className="navbarItem" >Baño Privado</NavLink>
-                                <NavLink to="/category/bañocompartido" className="navbarItem" >Baño Compartido</NavLink>
-                                <NavLink to="/category/apartaestudio" className="navbarItem" >Aparta Estudios</NavLink>
+                                <NavLink to="/category/Baño Privado" className="navbarItem" >Baño Privado</NavLink>
+                                <NavLink to="/category/Baño Compartido" className="navbarItem" >Baño Compartido</NavLink>
+                                <NavLink to="/category/Aparta Estudio" className="navbarItem" >Aparta Estudios</NavLink>
                                 </div>
                             </div>
                         </li>
