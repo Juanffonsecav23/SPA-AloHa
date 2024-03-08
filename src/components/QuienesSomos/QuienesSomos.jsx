@@ -4,6 +4,7 @@ import CheckOutForm from '../CheckOutForm/CheckOutForm';
 function QuienesSomos() {
   return (
     <div className="boxQS" id="QuienesSomos">
+      <h2>Prueba</h2>
         <h1 className="tituloQS animate__animated animate__slideInDown">Quiénes Somos</h1>
         <div className="flexQS">
             <p className="textoQS">
