@@ -4,17 +4,16 @@
     margin-bottom:40px; 
 }
 .boxReglas{
-    display: grid;
+    display:flex ;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
     gap: 30px;
     margin: 50px 20px 0 20px;
 }
-.itemReglas{
-    box-shadow: 0px 0px 3px white;
-    text-align: justify;
-    color: white;
-}
+
 
 
 /********** Mobile *********/
@@ -28,6 +27,13 @@
         border: solid black;
         color: black;
         border-radius: 50%;
+    }
+    .itemReglas{
+        width: 45%;
+        box-shadow: 0px 0px 3px white;
+        border-radius: 5%;
+        text-align: justify;
+        color: white;
     }
 }
 
@@ -44,6 +50,13 @@
         color: black;
         border-radius: 50%;
     }
+    .itemReglas{
+        width: 40%;
+        box-shadow: 0px 0px 3px white;
+        border-radius: 5%;
+        text-align: justify;
+        color: white;
+    }
 }
 
 /********** Desktop **********/
@@ -58,5 +71,12 @@
         border: solid black;
         color: black;
         border-radius: 50%;
+    }
+    .itemReglas{
+        width: 40%;
+        box-shadow: 0px 0px 3px white;
+        border-radius: 5%;
+        text-align: justify;
+        color: white;
     }
 }
