@@ -7,6 +7,12 @@
         height: 350px;
         width: 350px;
     }
+    .bodyCardEspacios{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: white;
+    }
 }
 
 
